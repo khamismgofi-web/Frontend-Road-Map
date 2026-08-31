@@ -1,0 +1,2 @@
+import {UtensilsCrossed} from 'lucide-react';
+export default function Brand({compact=false}){return <div className="flex items-center gap-3"><div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-white shadow-lg shadow-orange-500/20"><UtensilsCrossed size={20}/></div>{!compact&&<div><p className="text-base font-extrabold tracking-tight text-slate-950">TableFlow</p><p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-400">Restaurant OS</p></div>}</div>}
